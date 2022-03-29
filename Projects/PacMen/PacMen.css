@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+h6 {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #242525;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3d3d3d;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+/* end scroll bar */
+/* IFRAME */
+iframe {
+  position: relative;
+  top: -20px;
+  left: 0px;
+  border-style: solid;
+  border-color: black;
+}
+/* END iframe */
+
+/* NAV BAR */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 1000;
+  opacity: 0.85;
+  height: 32px;
+}
+
+#navbar a {
+  display: inline-block;
+  padding: 3px 20px;
+  color: #e97753;
+  background-color: transparent;
+  border: 1px solid #e97753;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+#navbar a:hover {
+  background-color: #e97753;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* END NAVBAR */
