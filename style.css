@@ -196,8 +196,9 @@ img {
 #hero .video {
   float: right;
   position: relative;
-  top: -670px;
-  left: -50px;
+  top: -600px;
+  left: -70px;
+  margin-right: -50px;
 }
 /* icon buttons */
 #hero .socials {
