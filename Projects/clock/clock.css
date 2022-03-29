@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&family=Rubik:ital@1&family=Tangerine:wght@700&family=Teko:wght@600;700&display=swap");
+
 body {
   background-color: black;
+}
+h1 {
+  color: #e97753;
+  font-family: "Fira Sans", sans-serif;
 }
 /* scroll bar */
 ::-webkit-scrollbar {
@@ -34,49 +40,3 @@ iframe {
   border-color: black;
 }
 /* END iframe */
-
-/* NAV BAR */
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-  z-index: 1000;
-  opacity: 0.85;
-  height: 32px;
-}
-
-#navbar a {
-  display: inline-block;
-  padding: 3px 20px;
-  color: #e97753;
-  background-color: transparent;
-  border: 1px solid #e97753;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-#navbar a:hover {
-  background-color: #e97753;
-  color: black;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-/* END NAVBAR */
